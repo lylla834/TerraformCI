@@ -31,8 +31,8 @@ resource "random_string" "uniquestring" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "continuous-delivery-with-git"
-  location = "eastus"
+  name     = "lylla_rg"
+  location = "westeurope"
 }
 
 resource "azurerm_storage_account" "storageaccount" {
